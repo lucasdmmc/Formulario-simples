@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+:root {
+  font-size: 62.5%;
+}
+
+
+body {
+  font-size: 1.6rem;
+
+  color: white;
+  background-color: black;
+
+}
+
+.wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  padding-top: 3rem;
+  background: #1d1a1a;
+
+  width: 45rem;
+  height: 42rem;
+
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10rem;
+
+  padding-top: 1rem;
+
+  color: rgba(169, 175, 185, 1);
+
+  font-family: sans-serif;
+
+
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  font-size: 2rem;
+
+  padding-bottom: 2rem;
+  padding-right: 4.5rem;
+
+  margin: auto;
+
+}
+
+.login, .p, h2{
+  display: block;
+  padding-left: 3rem;
+}
+
+h2 {
+  display: block;
+  padding-bottom: 1.2rem;
+  padding-right: 8.9rem;
+
+}
+
+.email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 1.8rem;
+  padding-right: 1rem;
+
+}
+
+.input-email {
+  position: relative;
+  height: 3.5rem;
+  width: 30rem;
+
+  background-color: rgb(36, 34, 31);
+  
+  border: 0.1rem solid #FFC632;
+  border-radius: 4px;
+
+  display: block;
+}
+
+.senha {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 1rem;
+  padding-right: 1rem;
+}
+
+.input-senha {
+  height: 3.5rem;
+  width: 30rem;
+
+  background-color: rgb(36, 34, 31);
+
+  border: 0.1rem solid #FFC632;
+  border-radius: 4px;
+
+  display: block;
+}
+
+.checkbox{
+  display: block;
+  padding-right: 19rem;
+  padding-bottom: 5rem;
+  
+  color: rgba(169, 175, 185, 1);
+
+}
+
+.checkbox input {
+  display: none;
+}
+
+.checkbox span {
+  width: 1.3rem;
+  height: 1.3rem;
+  display: block;
+  position: relative;
+  right: 1.5rem;
+  bottom: 1.65rem;
+  background-color: rgb(48, 42, 42);
+  border-radius: 50% rgba(134, 134, 134, 1);
+  border: 0.1rem solid; 
+
+}
+
+
+
+
+.cadastrar {
+  display: block;
+  padding-bottom: 10rem;
+}
+
+button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 1.2rem 2.4rem;
+  gap: 1rem;
+
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+
+  letter-spacing: 0.025em;
+  text-transform: uppercase;
+
+  color: #473404;
+  background: #FFC632;
+  border-radius: 4px;
+
+  width: 30rem;
+  border: none;
+
+}
+
+footer {
+  margin: auto;
+  color: #FFC632;
+}
+
